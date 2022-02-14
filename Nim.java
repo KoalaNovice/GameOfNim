@@ -31,11 +31,11 @@ public class Nim
                 System.out.println("There are " + Board.getNumPieces() + " pieces left.");
                 if(currentPlayer == 1) //uses if statements to figure out who's turn it is
                 {
-                    System.out.println("It is " + playerOne.getName() + "'s turn. ");
+                    System.out.println(playerOne.getName() + "'s turn. ");
                 }
-                else if(currentPlayer == 2)
+                else
                 {
-                    System.out.println("It is " + playerTwo.getName() + "'s turn. ");
+                    System.out.println(playerTwo.getName() + "'s turn. ");
                 }
                 System.out.print("Amount of pieces you want to take: "); //asks for currentPlayer users input for pieces to remove
                 choice = sc.nextInt();
