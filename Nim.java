@@ -25,9 +25,8 @@ public class Nim
         while(playAgain) // Game in progress part of code, this while loop runs until game is over
         {
             Board.populate();  // Chooses random amount of pieces for the board between 10 and 50 inclusive
-            while(Board.getNumPieces() > 0)
+            while(Board.getNumPieces() > 1)
             {
-                System.out.println(currentPlayer);
                 System.out.println("There are " + Board.getNumPieces() + " pieces left.");
                 if(currentPlayer == 1) //uses if statements to figure out who's turn it is
                 {
